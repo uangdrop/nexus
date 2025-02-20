@@ -6,6 +6,9 @@
 - 🛠️ build-essential, curl, wget, clang, gcc, pkg-config, libssl-dev, libcrypto++-dev, zlib1g-dev
 - 🦀 Rust & Cargo
 
+
+# Lets Using Super computer
+
 #### Open Your MobaxTerm
 
 #### Just Paste This
