@@ -2,32 +2,18 @@
 
 
 # Infinite loop to keep retrying the script if any part fails
-while true; do
-    printf "\n"
-    cat <<EOF
 
+set -e
 
-██╗░░██╗░█████╗░██████╗░██╗  ██╗░░██╗██╗████████╗░█████╗░███╗░░░███╗
-██║░██╔╝██╔══██╗██╔══██╗██║  ██║░░██║██║╚══██╔══╝██╔══██╗████╗░████║
-█████═╝░██║░░██║██████╔╝██║  ███████║██║░░░██║░░░███████║██╔████╔██║
-██╔═██╗░██║░░██║██╔═══╝░██║  ██╔══██║██║░░░██║░░░██╔══██║██║╚██╔╝██║
-██║░╚██╗╚█████╔╝██║░░░░░██║  ██║░░██║██║░░░██║░░░██║░░██║██║░╚═╝░██║
-╚═╝░░╚═╝░╚════╝░╚═╝░░░░░╚═╝  ╚═╝░░╚═╝╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+CYAN='\033[0;36m'
+NC='\033[0m'
 
+echo "Starting Auto Nexus"
+sleep 5
 
-
-EOF
-
-    printf "\n\n"
-
-    # KOPI HITAM Banner
-    GREEN="\033[0;32m"
-    RESET="\033[0m"
-    printf "${GREEN}"
-    printf "Stay connected for updates:\n"
-    printf "   • Telegram: https://t.me/uangdrop\n"
-    printf "   • X (formerly Twitter): https://x.com/uangdrop\n"
-    printf "${RESET}"
 
 log() {
     local level=$1
