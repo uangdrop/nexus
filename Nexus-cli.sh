@@ -1,8 +1,5 @@
 #!/bin/bash
 
-
-# Infinite loop to keep retrying the script if any part fails
-
 set -e
 
 RED='\033[0;31m'
@@ -11,7 +8,7 @@ YELLOW='\033[0;33m'
 CYAN='\033[0;36m'
 NC='\033[0m'
 
-echo "Starting Nexus CLI
+echo "Starting Nexus CLI"
 sleep 5
 
 
