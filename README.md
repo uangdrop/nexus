@@ -1,6 +1,11 @@
 # NEXUS
 
-# Hyperspace
+🔧 Requirements:
+- 🧠 16GB+ RAM (8GB may work but risky)
+- 🐧 Ubuntu 20.04+ / Windows WSL
+- 🛠️ build-essential, curl, wget, clang, gcc, pkg-config, libssl-dev, libcrypto++-dev, zlib1g-dev
+- 🦀 Rust & Cargo
+
 #### Open Your MobaxTerm
 
 #### Just Paste This
