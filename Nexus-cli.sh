@@ -11,7 +11,7 @@ YELLOW='\033[0;33m'
 CYAN='\033[0;36m'
 NC='\033[0m'
 
-echo "Starting Auto Nexus"
+echo "Starting Nexus CLI
 sleep 5
 
 
